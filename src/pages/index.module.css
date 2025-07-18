@@ -1,0 +1,33 @@
+/* index.module.css */
+
+.heroBanner {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eaeaea;
+}
+
+@media screen and (min-width: 768px) {
+  .heroBanner {
+    padding: 5rem 1rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 0;
+}
